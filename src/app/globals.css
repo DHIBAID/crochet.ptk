@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root {
   --background: #ffffff;
@@ -18,4 +19,16 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-container {
+  height: 100vh;
+  color: #4A4A4A;
+  background-color: #FFF3E0;
+}
+
+.welcome {
+  font-size: 64px;
+  font-family: "Pacifico", serif;
+  font-optical-sizing: auto;
 }
