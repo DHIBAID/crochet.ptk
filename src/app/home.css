@@ -77,11 +77,16 @@
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
-    padding: 1rem;
+    padding: 0.75rem;
+    display: flex; /* Add flexbox */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: center; /* Center-align items */
+    max-height: 300px; /* Ensure consistent height */
   }
 
   .product-card img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
   }
@@ -128,4 +133,10 @@
     padding: 1rem;
     background-color: #4a4a4a;
     color: white;
+  }
+
+  .headings {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    color: #e91e63 !important;
   }
